@@ -1,0 +1,29 @@
+.c.c_yes
+	label(for="yes")
+		| yes
+	span#yes-count.c__count
+		| 0
+	button#yes-clear.c__clear(type="button" title="Clear input \"yes\"")
+		| &times;
+	textarea#yes.c__input
+
+.c.c_all
+	label(for="all")
+		| all
+	span#all-count.c__count
+		| 0
+	button#all-clear.c__clear(type="button" title="Clear input \"all\"")
+		| &times;
+	textarea#all.c__input
+
+.c.c_not
+	label(for="not")
+		| not
+	span#not-count.c__count
+		| 0
+	button#not-clear.c__clear(type="button" title="Clear all inputs")
+		| &times;
+	textarea#not.c__input(readonly)
+
+button#run(type="button")
+	| run
