@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>yes-all-not</title>
+
+	<meta name="description" content="Filter not selected list items">
+	<meta name="keywords" content="">
+
+	<link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="c c_yes">
+		<label
+			class="c__label"
+			for="yes"
+			>
+			yes
+		</label>
+
+		<span
+			class="c__count"
+			id="yes-count"
+			>
+			0
+		</span>
+
+		<button
+			class="c__clear"
+			id="yes-clear"
+			type="button"
+			title="Clear input &quot;yes&quot;"
+			>
+			&times;
+		</button>
+
+		<textarea
+			class="c__input"
+			id="yes"
+			></textarea>
+	</div>
+
+	<div class="c c_all">
+		<label
+			class="c__label"
+			for="all"
+			>
+			all
+		</label>
+
+		<span
+			class="c__count"
+			id="all-count"
+			>
+			0
+		</span>
+
+		<button
+			class="c__clear"
+			id="all-clear"
+			type="button"
+			title="Clear input &quot;all&quot;"
+			>
+			&times;
+		</button>
+
+		<textarea
+			class="c__input"
+			id="all"
+			></textarea>
+	</div>
+
+	<div class="c c_not">
+		<label
+			class="c__label"
+			for="not"
+			>
+			not
+		</label>
+
+		<span
+			class="c__count"
+			id="not-count"
+			>
+			0
+		</span>
+
+		<button
+			class="c__clear"
+			id="not-clear"
+			type="button"
+			title="Clear all inputs"
+			>
+			&times;
+		</button>
+
+		<textarea
+			class="c__input"
+			id="not"
+			readonly
+			></textarea>
+	</div>
+
+	<button
+		id="run"
+		type="button"
+		>
+		run
+	</button>
+
+	<script src="index.js"></script>
+</body>
+
+</html>
