@@ -78,6 +78,7 @@ button {
 	border: none;
 	background-image: none;
 	background-color: #fff;
+	border-radius: 0;
 }
 
 button:active {
