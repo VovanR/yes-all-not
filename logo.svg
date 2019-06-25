@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" width="256" height="256" fill="#37474f">
+  <path d="M0 0h256v256H0z" fill="none"/>
+
+  <rect width="244" height="244" x="6" y="6" ry="20" fill="#fff"/>
+
+  <g fill="#01c853">
+    <circle cx="62" cy="102" r="20"/>
+    <circle cx="62" cy="154" r="20"/>
+    <circle cx="62" cy="50" r="20"/>
+  </g>
+
+  <g fill="#00affe">
+    <circle cx="128" cy="102" r="20"/>
+    <circle cx="128" cy="154" r="20"/>
+    <circle cx="128" cy="50" r="20"/>
+    <circle cx="128" cy="204" r="20"/>
+  </g>
+
+  <g fill="#ff5353">
+    <circle cx="194" cy="50" r="20"/>
+  </g>
+</svg>
