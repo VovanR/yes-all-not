@@ -4,12 +4,10 @@
   "description": "Filter not selected list items",
   "license": "MIT",
   "repository": "VovanR/yes-all-not",
-  "author": "Vladimir Rodkin <mail@vovanr.com> (http://vovanr.com/)",
+  "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
     "test": ""
   },
-  "main": "",
   "keywords": [],
   "dependencies": {},
   "devDependencies": {},
